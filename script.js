@@ -33,3 +33,7 @@ resultBox.innerHTML = evaluate(allInputs);
 
 console.log(evaluate(allInputs));
 })
+// Clear all Inputs
+clearBtn.addEventListener('click', ()=> {
+    resultBox.innerHTML = "0";
+})

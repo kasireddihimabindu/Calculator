@@ -71,7 +71,6 @@ body{
   box-shadow:  5px 5px 10px #c1c1c1,
                -5px -5px 10px #ffffff;
 }
-  
 .action-btn {
     color: grey;
     font-weight: bold;
@@ -80,5 +79,4 @@ body{
     color: #000000;
     font-size: 60px;
     font-weight: bold;
-  
 }
