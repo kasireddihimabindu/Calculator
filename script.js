@@ -21,10 +21,6 @@ btnSpread.forEach((button, i) => {
       
       let symbolArr = ['%','+','-','/','.','*'];
       let dontAllowChar = '';
-      // if(!symbolArr.includes(lastChar)){
-      //   value= btns[i].innerHTML;
-      //   resultBox.innerHTML += value;
-      // }
       for(let i=0; i<symbolArr.length; i++){
             if(lastChar == symbolArr[i]){
               dontAllowChar = symbolArr[i];
@@ -40,7 +36,6 @@ btnSpread.forEach((button, i) => {
         resultBox.innerHTML += value;
       }
 
-// 9*
 
     });
   });
@@ -71,6 +66,3 @@ backspacebtn.addEventListener('click',()=> {
   }
   
 })
-
-
-//new change in replace-number branch
